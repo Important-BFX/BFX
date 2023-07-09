@@ -1,6 +1,16 @@
--- Notifi-Hola-reven
+-- Hola-Reven-7u7-Se-lo-folla
+-- Hola-Reven-7u7-Se-lo-folla
+-- Hola-Reven-7u7-Se-lo-folla
+-- Hola-Reven-7u7-Se-lo-folla
+-- Hola-Reven-7u7-Se-lo-folla
+-- Hola-Reven-7u7-Se-lo-folla
+-- Hola-Reven-7u7-Se-lo-folla
+-- Hola-Reven-7u7-Se-lo-folla
+-- Hola-Reven-7u7-Se-lo-folla
+
+
 local NotificationMessage = "BluefireX se ha inyectado correctamente"
-local NotificationDuration = 5 -- Duración en segundos
+local NotificationDuration = 5
 
 
 local ScreenGui = Instance.new("ScreenGui")
