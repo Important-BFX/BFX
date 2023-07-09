@@ -1,17 +1,11 @@
--- Hola-Reven-7u7-Se-lo-folla
--- Hola-Reven-7u7-Se-lo-folla
--- Hola-Reven-7u7-Se-lo-folla
--- Hola-Reven-7u7-Se-lo-folla
--- Hola-Reven-7u7-Se-lo-folla
--- Hola-Reven-7u7-Se-lo-folla
--- Hola-Reven-7u7-Se-lo-folla
--- Hola-Reven-7u7-Se-lo-folla
--- Hola-Reven-7u7-Se-lo-folla
+-- Hola reven 7u7 
+-- Hola reven 7u7 
+-- Hola reven 7u7 
+-- Hola reven 7u7 
 
 
 local NotificationMessage = "BluefireX se ha inyectado correctamente"
 local NotificationDuration = 5
-
 
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Parent = game.Players.LocalPlayer.PlayerGui
@@ -41,16 +35,14 @@ CloseButton.Font = Enum.Font.SourceSans
 CloseButton.TextColor3 = Color3.new(1, 1, 1)
 CloseButton.BackgroundColor3 = Color3.new(0, 0, 0)
 CloseButton.BackgroundTransparency = 0.5
+CloseButton.TextScaled = true 
 CloseButton.Parent = Frame
-
 
 local function CloseNotification()
     ScreenGui:Destroy()
 end
 
-
 CloseButton.MouseButton1Click:Connect(CloseNotification)
-
 
 wait(NotificationDuration)
 CloseNotification()
