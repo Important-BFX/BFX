@@ -21,3 +21,12 @@ MM2:AddButton({
       		print("Loaded")
   	end    
 })
+
+MM2:AddButton({
+	Name = "Vynixu's Gui",
+	Callback = function()
+        loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+
+      		print("Loaded")
+  	end    
+})
